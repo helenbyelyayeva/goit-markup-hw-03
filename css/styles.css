@@ -1,0 +1,197 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500;700&display=swap");
+
+body {
+  font-family: "Roboto";
+  color: #2f303a;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+}
+
+ul {
+  list-style: none;
+}
+h1 {
+  font-size: 60px;
+}
+.logo {
+  font-family: "Raleway";
+  font-size: 36px;
+  font-weight: 700;
+  color: #2f303a;
+  text-decoration: none;
+  line-height: 1.19;
+  text-transform: capitalize;
+}
+
+.logo span {
+  color: #2196f3;
+}
+
+.navigation-links {
+  color: #2f303a;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.navigation-links:hover,
+.navigation-links:focus {
+  color: #2196f3;
+}
+
+.contacts {
+  color: #757575;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  text-decoration: none;
+  font-style: normal;
+}
+
+.contacts:hover,
+.contacts:focus {
+  color: #2196f3;
+}
+
+.hero {
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #2f303a;
+  color: #ffffff;
+  line-height: 1.3;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+.btn {
+  background-color: #2196f3;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  border: 0;
+  font-family: inherit;
+}
+
+.btn:hover,
+.btn:focus {
+  cursor: pointer;
+}
+
+.information {
+}
+
+.information-heading {
+  display: none;
+}
+
+.info-heading {
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.info-text {
+  font-size: 14px;
+  line-height: 1.7;
+  color: #757575;
+}
+
+.work {
+}
+
+.work-heading {
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+
+.workers {
+  background: #f5f4fa;
+}
+
+.workers-heading {
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+
+.worker-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+
+.workers-job {
+  color: #757575;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+
+.portfolio-heading {
+  display: none;
+}
+
+.filter_and_examples {
+}
+
+.btn-ex {
+  color: #212121;
+  background-color: #f5f4fa;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  border: 0;
+  font-family: inherit;
+}
+
+.btn-ex:hover,
+.btn-ex:focus {
+  color: #ffffff;
+  background-color: #2196f3;
+  cursor: pointer;
+}
+
+.exmples-names {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.exmples-info {
+  font-size: 16px;
+  line-height: 1.88;
+  color: #757575;
+}
+
+footer {
+  background-color: #2f303a;
+  line-height: 24px;
+}
+
+.logo-b {
+  color: #ffffff;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+}
+
+.logo-b span {
+  color: #2196f3;
+}
+
+.footer-links {
+  font-style: normal;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 14px;
+}
