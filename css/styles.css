@@ -1,6 +1,25 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500;700&display=swap");
 
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
 body {
   font-family: "Roboto";
   color: #2f303a;
@@ -11,9 +30,20 @@ body {
 ul {
   list-style: none;
 }
+
 h1 {
-  font-size: 60px;
+  font-size: 44px;
 }
+.container {
+  width: 1230px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left:15px;
+  padding-right:15px;
+  outline: 2px solid  red;
+}
+
+
 .logo {
   font-family: "Raleway";
   font-size: 36px;
@@ -29,6 +59,7 @@ h1 {
 }
 
 .navigation-links {
+  display: inline-block;
   color: #2f303a;
   text-decoration: none;
   font-weight: 500;
@@ -74,6 +105,8 @@ h1 {
   line-height: 1.88;
   border: 0;
   font-family: inherit;
+  padding: 10px 32px;
+  border-radius:4px;
 }
 
 .btn:hover,
@@ -149,6 +182,8 @@ h1 {
   text-align: center;
   border: 0;
   font-family: inherit;
+  padding: 6px 25px;
+  border-radius: 4px;
 }
 
 .btn-ex:hover,
