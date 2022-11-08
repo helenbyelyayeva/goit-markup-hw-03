@@ -19,6 +19,12 @@ h6,
 p {
   margin: 0;
 }
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+} 
+
 header{
   border-bottom: solid #ECECEC;
 }
@@ -222,6 +228,7 @@ h1 {
  .workers-info{
    background-color: #ffffff;
  }
+
 .worker-name {
   font-weight: 500;
   font-size: 16px;
@@ -279,7 +286,26 @@ h1 {
 }
 .gallary {
   margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding-bottom: 94px;
 }
+
+.examples-cards {
+  width: auto;
+
+}
+.examples-cards:hover{
+  cursor: pointer;
+}
+.ex-info {
+padding-top: 20px;
+border: 1px solid #EEEEEE;
+padding-left: 20px;
+padding-bottom: 20px;
+}
+
 .exmples-names {
   font-size: 18px;
   line-height: 2;
