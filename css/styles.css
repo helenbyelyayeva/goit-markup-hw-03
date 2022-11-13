@@ -23,11 +23,12 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
-} 
-
-header{
-  border-bottom: solid #ECECEC;
 }
+
+header {
+  border-bottom: solid #ececec;
+}
+
 body {
   font-family: "Roboto";
   color: #2f303a;
@@ -43,28 +44,39 @@ ul {
 
 h1 {
   font-size: 44px;
+  text-align: center;
+  width: 696px;
+  margin: 0 auto;
 }
 .container {
-  width: 1230px;
+  width: 1200px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
 }
-.all-nav {
+
+.header-container{
   display: flex;
   align-items: center;
+
 }
-
-
 .navigation {
   display: flex;
-  align-items: center;
+}
+
+.cont {
+  display: flex;
+  margin-left: auto;
+}
+
+.cont li:not(:last-child) {
+  margin-right: 50px;
 }
 .logo {
   display: flex;
   font-family: "Raleway";
-  font-size: 36px;
+  font-size: 26px;
   font-weight: 700;
   color: #2f303a;
   text-decoration: none;
@@ -78,6 +90,13 @@ h1 {
 }
 .site-nav {
   display: flex;
+  align-items: center;
+}
+.site-nav li {
+  margin-right: 50px;
+}
+.site-nav li:last-child {
+  margin-right: 0;
 }
 .navigation-links {
   display: block;
@@ -90,24 +109,13 @@ h1 {
   padding-top: 32px;
   padding-bottom: 32px;
 }
-.site-nav li {
-  margin-right: 50px;
-}
-.site-nav li:last-child {
-  margin-right: 0;
-}
+
 .navigation-links:hover,
 .navigation-links:focus {
   color: #2196f3;
 }
 
-.cont {
-  display: flex;
-  margin-left: auto;
-}
-.cont li:not(:last-child) {
-  margin-right: 50px;
-}
+
 
 .contacts {
   display: block;
@@ -132,7 +140,6 @@ h1 {
   background-color: #2f303a;
   color: #ffffff;
   line-height: 1.3;
-  text-align: center;
   letter-spacing: 0.06em;
   padding-top: 150px;
   padding-bottom: 150px;
@@ -164,11 +171,11 @@ h1 {
   display: none;
 }
 
-.info{
+.info {
   display: flex;
-  gap:30px;
+  gap: 30px;
 }
-.info li{
+.info li {
   width: auto;
 }
 .info-heading {
@@ -207,34 +214,35 @@ h1 {
 }
 .workers {
   background: #f5f4fa;
+  padding-top: 94px;
 }
 
 .workers-heading {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
-  padding-top: 94px;
+
 }
-.workers-flex{
+.workers-flex {
   margin-top: 50px;
   display: flex;
   justify-content: space-between;
   padding-bottom: 94px;
- }
- .workers-card{
-   width: 270px;
-   border-color: #F5F4FA;
- }
- .workers-info{
-   background-color: #ffffff;
- }
+}
+.workers-card {
+  width: 270px;
+  border-color: #f5f4fa;
+}
+.workers-info {
+  background-color: #ffffff;
+  padding: 30px;
+}
 
 .worker-name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
-  padding-top: 30px;
 }
 
 .workers-job {
@@ -242,9 +250,7 @@ h1 {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
-  padding-top: 10px;
-  padding-bottom:30px ;
-
+  margin-top: 10px;
 }
 
 .portfolio-heading {
@@ -252,12 +258,12 @@ h1 {
 }
 
 .filter_and_examples {
+  padding-top: 94px;
 }
 
 .filter {
   display: flex;
   justify-content: center;
-  padding-top: 94px;
 }
 .filter li {
   margin-right: 8px;
@@ -294,16 +300,14 @@ h1 {
 
 .examples-cards {
   width: auto;
-
 }
-.examples-cards:hover{
+.examples-cards:hover {
   cursor: pointer;
 }
 .ex-info {
-padding-top: 20px;
-border: 1px solid #EEEEEE;
-padding-left: 20px;
-padding-bottom: 20px;
+  padding: 20px 24px;
+  border: 1px solid #eeeeee;
+  border-top:0 ;
 }
 
 .exmples-names {
@@ -350,7 +354,7 @@ footer {
 }
 
 .contacts-b {
-  padding-top: 9px;
+
   display: block;
   color: #757575;
   font-weight: 500;
@@ -358,4 +362,8 @@ footer {
   line-height: 1.14;
   text-decoration: none;
   font-style: normal;
+}
+
+.f-links li{
+  margin-top: 9px;
 }
