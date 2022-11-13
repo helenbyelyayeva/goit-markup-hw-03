@@ -56,10 +56,9 @@ h1 {
   padding-right: 15px;
 }
 
-.header-container{
+.header-container {
   display: flex;
   align-items: center;
-
 }
 .navigation {
   display: flex;
@@ -114,8 +113,6 @@ h1 {
 .navigation-links:focus {
   color: #2196f3;
 }
-
-
 
 .contacts {
   display: block;
@@ -221,7 +218,6 @@ h1 {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
-
 }
 .workers-flex {
   margin-top: 50px;
@@ -307,7 +303,7 @@ h1 {
 .ex-info {
   padding: 20px 24px;
   border: 1px solid #eeeeee;
-  border-top:0 ;
+  border-top: 0;
 }
 
 .exmples-names {
@@ -354,7 +350,6 @@ footer {
 }
 
 .contacts-b {
-
   display: block;
   color: #757575;
   font-weight: 500;
@@ -364,6 +359,6 @@ footer {
   font-style: normal;
 }
 
-.f-links li{
+.f-links li {
   margin-top: 9px;
 }
